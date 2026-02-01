@@ -989,3 +989,19 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }/*# sourceMappingURL=style.css.map */
+/* --- keep flowers above any added photo --- */
+.flowers {
+  position: relative;
+  z-index: 10;
+}
+
+/* --- make sure the added photo is not dimmed and stays behind flowers --- */
+.photo-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.photo-wrap img {
+  opacity: 1 !important;
+  filter: none !important;
+}
