@@ -988,4 +988,9 @@ body {
 }
 .not-loaded * {
   animation-play-state: paused !important;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */.night {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
